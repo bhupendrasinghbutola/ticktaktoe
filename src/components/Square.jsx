@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Square = ({value,onClick}) => {
-    //  console.log(props);
+      // console.log('square rerender');
   return (
     <button type='button' className='square' onClick={onClick}>{value}</button>
     )
