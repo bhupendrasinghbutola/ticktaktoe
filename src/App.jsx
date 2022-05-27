@@ -54,12 +54,14 @@ const onNewGame = ()=>{
 
 return (
 <div className="app">
-    <h1>Tick Tack Toe</h1>
+    <h1>Tic  <span className="text-green">Tac</span>  Toe</h1>
     {/* <h2>{message}</h2> */}
     <StatusMessage winner={winner} current={current} />
     <Board board={current.board} handleSquareClick={handleSquareClick} winningSquare={winningSquare} />
-    <button type="button"onClick={onNewGame}>Start new Game</button>
+    <button type="button"onClick={onNewGame} className={`btn-reset ${winner ?'active': ''}`} >Start new Game</button>
+    <h2 style={{fontWeight:'normal'}}> Current Game History</h2>
     <History history={history}  moveTo={moveTo} currentmove={currentMove} />
+    <div className="bg-balls"/>
    </div>
    
    
