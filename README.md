@@ -1,8 +1,10 @@
 # Nano React App Default Javascript Template
-
+Note:
+1.naming convetion for react components: naming start with capital and component has only one element
+2."rafce" is a snippet for react extension
 The default template project for [nano-react-app](https://github.com/nano-react-app/nano-react-app).
 
-- `npm start` — This will spawn a development server with a default port of `3000`.
+- `npm run start` — This will spawn a development server with a default port of `3000`.
 - `npm run build` — This will output a production build in the `dist` directory.
 
 ## Custom port

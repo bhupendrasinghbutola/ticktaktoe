@@ -3,8 +3,10 @@
     "env": {
       "browser": true
     },
-    "parser": "babel-eslint",
+    "parser": "@babel/eslint-parser",
     "rules": {
+      "prettier/prettier": "error",
+      "no-tabs": ["error", { "allowIndentationTabs": true }],
       "no-plusplus": [0],
       "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
       "react/prop-types": [0],
