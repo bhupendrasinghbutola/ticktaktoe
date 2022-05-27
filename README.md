@@ -1,7 +1,8 @@
 # Nano React App Default Javascript Template
 Note:
 1.naming convetion for react components: naming start with capital and component has only one element
-2."rafce" is a snippet for react extension
+2."rafce" is a snippet for react extension.
+3. react hooks is the module in the libarary which is used to manipulate the states of an components.
 The default template project for [nano-react-app](https://github.com/nano-react-app/nano-react-app).
 
 - `npm run start` — This will spawn a development server with a default port of `3000`.
