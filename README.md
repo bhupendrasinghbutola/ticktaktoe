@@ -1,5 +1,5 @@
-# Nano React App Default Javascript Template
-Note: deployed website  name:  remarkable-wash.surge.sh
+# Nano React App Default Javascript Template DONE IN DATED : 27/05/22
+Note: deployed website  name:  https://remarkable-wash.surge.sh
 1.naming convetion for react components: naming start with capital and component has only one element
 2."rafce" is a snippet for react extension.
 3. react hooks is the module in the libarary which is used to manipulate the states of an components.
